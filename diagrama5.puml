@@ -1,0 +1,9 @@
+@startuml diagrama5
+Clase1 <|-- Clase2
+Clase1 <|-- Clase3
+Clase4 *-- Clase5
+
+Clase6 o-- Clase7
+
+
+@enduml

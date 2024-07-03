@@ -1,0 +1,29 @@
+@startuml diagrama8
+abstract Abstracta{
+    -private
+    #protected
+    
+    ~package_private()
+        +public()
+    
+}
+
+interface Interfaz{
+    metodo()
+}
+enum TimeUnit{
+    DIAS
+    HORA 
+    MINUTOS
+}
+
+class Clase1 #Red
+
+Abstracta<|--Clase1
+Abstracta<|--Clase2
+
+class Clase3 #Green
+Interfaz <|.. Clase3
+Interfaz <|.. Clase4
+
+@enduml

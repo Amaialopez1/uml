@@ -1,0 +1,12 @@
+@startuml diagrama4
+== comienzo ==
+
+Elemento1 -x Elemento2
+Elemento2-[#0000FF]-\ Elemento1
+Elemento2 <-> Elemento1
+
+== Final ==
+Elemento1 ->o Elemento2
+
+
+@enduml

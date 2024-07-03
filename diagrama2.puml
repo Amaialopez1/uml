@@ -1,0 +1,6 @@
+@startuml diagrama2
+carlos -> olga: saluda 
+carlos -> andrea: saluda
+carlos <-- andrea: hola
+carlos <-- olga: hola
+@enduml
