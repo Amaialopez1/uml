@@ -1,0 +1,13 @@
+@startuml diagrama9 
+    actor Amaia
+     
+    Amaia --> Formulario 
+    database  cocina #Red
+    Formulario --> cocina
+
+    Formulario <-- cocina
+    Formulario --> Amaia
+    
+    
+
+@enduml
